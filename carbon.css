@@ -1,0 +1,137 @@
+/* Reset CSS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+/* Header Styles */
+header {
+   color:black ;
+   padding: 20px 0;
+   text-align : left;
+}
+
+header nav ul {
+   list-style: none;
+}
+
+header nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+header nav ul li:last-child {
+   margin-right: 0;
+}
+
+header nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Calculator Section Styles */
+.calculator {
+   padding: 50px 0;
+   text-align: center;
+}
+
+.calculator h2 {
+   font-size: 28px;
+   margin-bottom: 30px;
+}
+
+.calculator form {
+   margin-bottom: 20px;
+}
+
+.calculator label {
+   display: block;
+   margin-bottom: 10px;
+}
+
+.calculator input[type="number"],
+.calculator select {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.calculator button {
+   background-color: #3caea3;
+   color: #fff;
+   padding: 10px 20px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.calculator button:hover {
+   background-color: #2a9d8f;
+}
+
+#result {
+   display: none;
+}
+
+/* Footer Styles */
+footer {
+   background-color: #00563f;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
+
+#footprint {
+   font-size: 24px; /* Adjust the font size as needed */
+}
+
+
+/* Carbon Info Section Styles */
+.carbon-info {
+   padding: 50px 0;
+   background-color: #fff;
+}
+
+.carbon-info h2 {
+   font-size: 28px;
+   margin-bottom: 30px;
+}
+
+.carbon-info h3 {
+   font-size: 24px;
+   margin-bottom: 15px;
+}
+
+.carbon-info p,
+.carbon-info ul {
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.carbon-info ul {
+   list-style: disc;
+   padding-left: 20px;
+}
+
+.carbon-info li {
+   margin-bottom: 10px;
+}
+img{
+   float: right;
+}

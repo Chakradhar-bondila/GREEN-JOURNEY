@@ -1,0 +1,77 @@
+/* Reset CSS */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   background-color: #f4f4f4;
+}
+
+.container {
+   max-width: 1200px;
+   margin: 0 auto;
+   padding: 20px;
+}
+
+/* Header Styles */
+header {
+   
+   color: black;
+   padding: 20px 0;
+}
+
+header nav ul {
+   list-style: none;
+}
+
+header nav ul li {
+   display: inline;
+   margin-right: 20px;
+}
+
+header nav ul li:last-child {
+   margin-right: 0;
+}
+
+header nav ul li a {
+   color: #fff;
+   text-decoration: none;
+}
+
+/* Travel Tips Section Styles */
+.travel-tips {
+   padding: 50px 0;
+}
+
+.travel-tips h2 {
+   font-size: 28px;
+   margin-bottom: 20px;
+}
+
+.travel-tips p,
+.travel-tips ul {
+   font-size: 16px;
+   margin-bottom: 20px;
+}
+
+.travel-tips ul {
+   list-style: disc;
+   padding-left: 20px;
+}
+
+.travel-tips li {
+   margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+   background-color: #00563f;
+   color: #fff;
+   padding: 20px 0;
+   text-align: center;
+}
